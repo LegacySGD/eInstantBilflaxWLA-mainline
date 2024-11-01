@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <family code="2180" desc="Lottery Game" studio="interactive" organizationName="Interactive">
+        <!-- -  For spot supported games: spots are colon separated string like 1:2:3:4:5.Otherwise left blank -->
+        <game name="Bilflax WLA" version="1.0.3" gameengineversion="2" gamelogicversion="1.0"
+              number="0"
+              jackpotid=""
+              gametype="L"
+              loadprevstate="N"
+              numberGenerator="RNG"
+              betMultipliers="2500"
+              spots=""
+              productId="1"
+              gamegroup="eGames"
+              languages="en,en_US,nb_NO"
+              skbPlatformVersion="1.4.0"
+              merchandisePrize="Y"
+              stateful="N"> 
+
+            <!-- NT -->
+            <paymodel modelid="300-2180-001"  revealId="2180" revealVersionId="2180"
+                      confidentlevelpct="95" maxmainbetwin="0" maxsidebetwin="0"
+                      mincoins="0" cointhreshold="0"
+                      name="Bilflax WLA : 300-2180-001"
+                      hibethold="39.96" lobethold="39.96"
+                      hibetsd="3.641" lobetsd="3.641" fixedminmax="Y" maxcoins="500"
+                      noncashprizes="1" />
+
+            <paymodelConfig modelid="300-2180-001" clienttype="HTML" configcode="IXML"/>
+            <paymodelConfig modelid="300-2180-001" clienttype="HTML" configcode="PHLP"/>
+
+            <denom currencycode="NOK" amount="0.01"/>
+            <denom currencycode="USD" amount="0.01,0.02"/>
+        </game>
+    </family>

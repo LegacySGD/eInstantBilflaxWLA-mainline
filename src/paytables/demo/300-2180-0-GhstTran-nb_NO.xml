@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<translation language="nb_NO">
+<phrase key="softwareId" value="Programvare-ID"/>
+<phrase key="transactionId" value="Transaksjon-ID"/>
+<phrase key="totalWins" value="Totalgevinster"/>
+<phrase key="totalWager" value="Totalinnsatser"/>
+<phrase key="wagerType" value="Innsatstype"/>
+<phrase key="BUY" value="Kjøp"/>
+<phrase key="TRY" value="Prøv"/>
+<phrase key="gameName1" value="Hovedspill: Match 3 av 9"/>
+<phrase key="gameName2" value="Bonusspill: Match 3 av 6"/>
+<phrase key="prizeValue" value="Premieverdi"/>
+<phrase key="match3" value="Matche 3"/>
+<phrase key="merchandisePrizeAwarded" value="Varepremie gevinst"/>
+<phrase key="showReplayImage" value="Vis bilde av replay"/>
+</translation>

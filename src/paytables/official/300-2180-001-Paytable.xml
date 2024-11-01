@@ -1,0 +1,304 @@
+<SignedPaytable>
+	<Key>wwpublic1</Key>
+	<Signature>cniEucdAD6Pt/KfcoWFPr4voO3htutVtBmcbjqLr2G0wkNiQOgf+eqhzv6/LO9ASTzK7GibY2vW0eeXflnMQwkL1Fx+rPO9oNhk9e0ZhTKMPddVFOO6DiB7YcgXBzKXFwaxK6WQ+U0yqXS6mM6rKFzwl2vxlcAxrmxYT//yanM4=</Signature>
+	<Digest>FKRjQCKCU5ko3/JTuiFrggATE6g=</Digest>
+	<DigestedData>
+		<Paytable>
+			<PaytableData crc="">
+				<PaytableVariation name="Variation" xmlns="http://www.igt.com/gle/common/xml/gamedata">
+					<Variation>
+						<SoftwareId>300-2180-001</SoftwareId>
+						<PaytableStatistics description="Merchandise Prizes WLA POC" maxRTP="59.00" minRTP="59.00" name="Merch Prize Test WLA" type="Lottery"/>
+						<BetConfiguration name="ODEWager">
+							<PlayedCreditsPerSelection>1</PlayedCreditsPerSelection>
+							<PaidCreditsPerSelection>1</PaidCreditsPerSelection>
+						</BetConfiguration>
+						<ExecutionModelMapping>
+							<ExecutionModel name="Wager_Buy">
+								<Data name="Wager_Buy.ODEInputVerifier.Wager" type="Wager_Buy.ODEInputVerifier.Wager"/>
+								<Data name="Wager_Buy.ODEInputVerifier.JSON" type="Wager_Buy.ODEInputVerifier.JSON"/>
+								<Data name="Wager_Buy.StaticTriggerProcessor" type="Wager_Buy.StaticTriggerProcessor"/>
+								<Data name="Wager_Buy.StaticTriggerProcessor.WagerMode" type="Wager_Buy.StaticTriggerProcessor.WagerMode"/>
+								<Data name="Wager_Buy.LoopProcessor" type="Wager_Buy.LoopProcessor"/>
+								<Data name="Wager_Buy.StageProcessor" type="Wager_Buy.StageProcessor"/>
+								<Data name="Wager_Buy.AdvancedTransactionProcessor" type="Wager_Buy.AdvancedTransactionProcessor"/>
+							</ExecutionModel>
+							<ExecutionModel name="Wager_Try">
+								<Data name="Wager_Try.ODEInputVerifier.Wager" type="Wager_Try.ODEInputVerifier.Wager"/>
+								<Data name="Wager_Try.ODEInputVerifier.JSON" type="Wager_Try.ODEInputVerifier.JSON"/>
+								<Data name="Wager_Try.OutcomeDeepCopyProcessor.ODEOutcome" type="Wager_Try.OutcomeDeepCopyProcessor.ODEOutcome"/>
+								<Data name="Wager_Try.ODEPrizeProcessor" type="Wager_Try.ODEPrizeProcessor"/>
+								<Data name="Wager_Try.ODENonCashPrizeProcessor" type="Wager_Try.ODENonCashPrizeProcessor"/>
+								<Data name="Wager_Try.LoopProcessor" type="Wager_Try.LoopProcessor"/>
+								<Data name="Wager_Try.StaticTriggerProcessor" type="Wager_Try.StaticTriggerProcessor"/>
+								<Data name="Wager_Try.StaticTriggerProcessor.WagerMode" type="Wager_Try.StaticTriggerProcessor.WagerMode"/>
+								<Data name="Wager_Try.StageProcessor" type="Wager_Try.StageProcessor"/>
+								<Data name="Wager_Try.AdvancedTransactionProcessor" type="Wager_Try.AdvancedTransactionProcessor"/>
+							</ExecutionModel>
+							<ExecutionModel name="Scenario">
+								<Data name="Scenario.OutcomeDeepCopyProcessor.ODEOutcome" type="Scenario.OutcomeDeepCopyProcessor.ODEOutcome"/>
+								<Data name="Scenario.ODEPrizeProcessor" type="Scenario.ODEPrizeProcessor"/>
+								<Data name="Scenario.ODENonCashPrizeProcessor" type="Scenario.ODENonCashPrizeProcessor"/>
+								<Data name="Scenario.LoopProcessor" type="Scenario.LoopProcessor"/>
+								<Data name="Scenario.StageProcessor" type="Scenario.StageProcessor"/>
+								<Data name="Scenario.AdvancedTransactionProcessor" type="Scenario.AdvancedTransactionProcessor"/>
+							</ExecutionModel>
+							<ExecutionModel name="MerchandisePrize">
+								<Data name="MerchandisePrize.StageProcessor" type="MerchandisePrize.StageProcessor"/>
+								<Data name="MerchandisePrize.AdvancedTransactionProcessor" type="MerchandisePrize.AdvancedTransactionProcessor"/>
+							</ExecutionModel>
+							<ExecutionModel name="Reveal">
+								<Data name="Reveal.ODEInputVerifier" type="Reveal.ODEInputVerifier"/>
+								<Data name="Reveal.ODEInputVerifier.RevealData" type="Reveal.ODEInputVerifier.RevealData"/>
+								<Data name="Reveal.StageProcessor" type="Reveal.StageProcessor"/>
+								<Data name="Reveal.AdvancedTransactionProcessor" type="Reveal.AdvancedTransactionProcessor"/>
+							</ExecutionModel>
+						</ExecutionModelMapping>
+					</Variation>
+				</PaytableVariation>
+			</PaytableData>
+			<PaytableData crc="">
+				<ComponentsDataMapping xmlns="http://www.igt.com/gle/common/xml/gamedata">
+					<ComponentData name="Wager_Buy.ODEInputVerifier.Wager">
+						<Data name="Wager_Buy.Wager" type="ODEInfo"/>
+					</ComponentData>
+					<ComponentData name="Wager_Buy.ODEInputVerifier.JSON">
+						<Data name="Wager_Buy.JSON" type="ODEInfo"/>
+					</ComponentData>
+					<ComponentData name="Wager_Buy.StaticTriggerProcessor">
+						<Data name="Wager_Buy.StaticTriggers" type="TriggerInfo"/>
+					</ComponentData>
+					<ComponentData name="Wager_Buy.StaticTriggerProcessor.WagerMode">
+						<Data name="Wager_Buy.WagerMode" type="TriggerInfo"/>
+					</ComponentData>
+					<ComponentData name="Wager_Buy.LoopProcessor">
+						<Data name="Wager_Buy.Loop" type="TriggerInfo"/>
+					</ComponentData>
+					<ComponentData name="Wager_Buy.StageProcessor">
+						<Data name="Wager_Buy" type="StageTriggerInfo"/>
+					</ComponentData>
+					<ComponentData name="Wager_Buy.AdvancedTransactionProcessor">
+						<Data name="Wager_Buy" type="WagerStrategyInfo"/>
+					</ComponentData>
+					<ComponentData name="Wager_Try.ODEInputVerifier.Wager">
+						<Data name="Wager_Try.Wager" type="ODEInfo"/>
+					</ComponentData>
+					<ComponentData name="Wager_Try.ODEInputVerifier.JSON">
+						<Data name="Wager_Try.JSON" type="ODEInfo"/>
+					</ComponentData>
+					<ComponentData name="Wager_Try.OutcomeDeepCopyProcessor.ODEOutcome">
+						<Data name="Wager_Try" type="DeepCopyInfo"/>
+					</ComponentData>
+					<ComponentData name="Wager_Try.ODEPrizeProcessor">
+						<Data name="ODE" type="PrizeInfo"/>
+						<Data name="ODE" type="TriggerInfo"/>
+					</ComponentData>
+					<ComponentData name="Wager_Try.ODENonCashPrizeProcessor">
+						<Data name="MerchandisePrizes" type="InstantWinNonCashPrizeInfo"/>
+					</ComponentData>
+					<ComponentData name="Wager_Try.LoopProcessor">
+						<Data name="Wager_Try.Loop" type="TriggerInfo"/>
+					</ComponentData>
+					<ComponentData name="Wager_Try.StaticTriggerProcessor">
+						<Data name="Wager_Try.StaticTriggers" type="TriggerInfo"/>
+					</ComponentData>
+					<ComponentData name="Wager_Try.StaticTriggerProcessor.WagerMode">
+						<Data name="Wager_Try.WagerMode" type="TriggerInfo"/>
+					</ComponentData>
+					<ComponentData name="Wager_Try.StageProcessor">
+						<Data name="Wager_Try" type="StageTriggerInfo"/>
+					</ComponentData>
+					<ComponentData name="Wager_Try.AdvancedTransactionProcessor">
+						<Data name="Wager_Try" type="WagerStrategyInfo"/>
+					</ComponentData>
+					<ComponentData name="Scenario.OutcomeDeepCopyProcessor.ODEOutcome">
+						<Data name="Scenario" type="DeepCopyInfo"/>
+					</ComponentData>
+					<ComponentData name="Scenario.ODEPrizeProcessor">
+						<Data name="ODE" type="PrizeInfo"/>
+						<Data name="ODE" type="TriggerInfo"/>
+					</ComponentData>
+					<ComponentData name="Scenario.ODENonCashPrizeProcessor">
+						<Data name="MerchandisePrizes" type="InstantWinNonCashPrizeInfo"/>
+					</ComponentData>
+					<ComponentData name="Scenario.LoopProcessor">
+						<Data name="Scenario.Loop" type="TriggerInfo"/>
+					</ComponentData>
+					<ComponentData name="Scenario.StageProcessor">
+						<Data name="Scenario" type="StageTriggerInfo"/>
+					</ComponentData>
+					<ComponentData name="Scenario.AdvancedTransactionProcessor">
+						<Data name="Scenario" type="WagerStrategyInfo"/>
+					</ComponentData>
+					<ComponentData name="MerchandisePrize.StageProcessor">
+						<Data name="MerchandisePrize" type="StageTriggerInfo"/>
+					</ComponentData>
+					<ComponentData name="MerchandisePrize.AdvancedTransactionProcessor">
+						<Data name="MerchandisePrize" type="WagerStrategyInfo"/>
+					</ComponentData>
+					<ComponentData name="Reveal.ODEInputVerifier">
+						<Data name="Reveal.Status" type="ODEInfo"/>
+					</ComponentData>
+					<ComponentData name="Reveal.ODEInputVerifier.RevealData">
+						<Data name="Reveal.RevealData" type="ODEInfo"/>
+					</ComponentData>
+					<ComponentData name="Reveal.StageProcessor">
+						<Data name="Reveal" type="StageTriggerInfo"/>
+					</ComponentData>
+					<ComponentData name="Reveal.AdvancedTransactionProcessor">
+						<Data name="Reveal" type="WagerStrategyInfo"/>
+					</ComponentData>
+				</ComponentsDataMapping>
+			</PaytableData>
+			<PaytableData crc="">
+				<ODEInfo name="Wager_Buy.Wager" verificationStrategy="wager" xmlns="http://www.igt.com/gle/common/xml/gamedata">
+					<Wagers>
+						<Wager name="Wager1"/>
+					</Wagers>
+				</ODEInfo>
+			</PaytableData>
+			<PaytableData crc="">
+				<ODEInfo name="Wager_Buy.JSON" verificationStrategy="json" xmlns="http://www.igt.com/gle/common/xml/gamedata"/>
+			</PaytableData>
+			<PaytableData crc="">
+				<TriggerInfo name="Wager_Buy.StaticTriggers" xmlns="http://www.igt.com/gle/common/xml/gamedata">
+					<Trigger name="wager"/>
+				</TriggerInfo>
+			</PaytableData>
+			<PaytableData crc="">
+				<TriggerInfo name="Wager_Buy.WagerMode" xmlns="http://www.igt.com/gle/common/xml/gamedata">
+					<Trigger name="buy"/>
+				</TriggerInfo>
+			</PaytableData>
+			<PaytableData crc="">
+				<TriggerInfo name="Wager_Buy.Loop" xmlns="http://www.igt.com/gle/common/xml/gamedata">
+					<Trigger name="wager"/>
+				</TriggerInfo>
+			</PaytableData>
+			<PaytableData crc="">
+				<StageTriggerInfo name="Wager_Buy" xmlns="http://www.igt.com/gle/common/xml/gamedata">
+					<Trigger name="wager" stageConnector="WagerToScenario"/>
+				</StageTriggerInfo>
+			</PaytableData>
+			<PaytableData crc="">
+				<WagerStrategyInfo name="Wager_Buy" xmlns="http://www.igt.com/gle/common/xml/gamedata">
+					<Trigger name="wager" payoutState="noPayout" priority="0" wagerState="pending"/>
+				</WagerStrategyInfo>
+			</PaytableData>
+			<PaytableData crc="">
+				<ODEInfo name="Wager_Try.Wager" verificationStrategy="wager" xmlns="http://www.igt.com/gle/common/xml/gamedata">
+					<Wagers>
+						<Wager name="Wager1"/>
+					</Wagers>
+				</ODEInfo>
+			</PaytableData>
+			<PaytableData crc="">
+				<ODEInfo name="Wager_Try.JSON" verificationStrategy="json" xmlns="http://www.igt.com/gle/common/xml/gamedata"/>
+			</PaytableData>
+			<PaytableData crc="">
+				<DeepCopyInfo name="Wager_Try" xmlns="http://www.igt.com/gle/common/xml/gamedata">
+					<DeepCopy destinationName="ODEResponse" sourceName="ODEResponse.Encrypted" type="JSONOutcome"/>
+				</DeepCopyInfo>
+			</PaytableData>
+			<PaytableData crc="">
+				<TriggerInfo name="Wager_Try.Loop" xmlns="http://www.igt.com/gle/common/xml/gamedata">
+					<Trigger name="merchandisePrizeAwarded"/>
+				</TriggerInfo>
+			</PaytableData>
+			<PaytableData crc="">
+				<TriggerInfo name="Wager_Try.StaticTriggers" xmlns="http://www.igt.com/gle/common/xml/gamedata">
+					<Trigger name="wager"/>
+				</TriggerInfo>
+			</PaytableData>
+			<PaytableData crc="">
+				<TriggerInfo name="Wager_Try.WagerMode" xmlns="http://www.igt.com/gle/common/xml/gamedata">
+					<Trigger name="try"/>
+				</TriggerInfo>
+			</PaytableData>
+			<PaytableData crc="">
+				<StageTriggerInfo name="Wager_Try" xmlns="http://www.igt.com/gle/common/xml/gamedata">
+					<Trigger name="merchandisePrizeAwarded" stageConnector="WagerToMerchandisePrize"/>
+					<Trigger name="wager" stageConnector="WagerToWager"/>
+				</StageTriggerInfo>
+			</PaytableData>
+			<PaytableData crc="">
+				<WagerStrategyInfo name="Wager_Try" xmlns="http://www.igt.com/gle/common/xml/gamedata">
+					<Trigger name="merchandisePrizeAwarded" payoutState="noPayout" priority="10" wagerState="pending"/>
+					<Trigger name="wager" payoutState="payout" priority="0" wagerState="settled"/>
+				</WagerStrategyInfo>
+			</PaytableData>
+			<PaytableData crc="">
+				<DeepCopyInfo name="Scenario" xmlns="http://www.igt.com/gle/common/xml/gamedata">
+					<DeepCopy destinationName="ODEResponse" sourceName="ODEResponse.Encrypted" type="JSONOutcome"/>
+				</DeepCopyInfo>
+			</PaytableData>
+			<PaytableData crc="">
+				<InstantWinNonCashPrizeInfo name="MerchandisePrizes" nonCashPrizeAwardedTrigger="merchandisePrizeAwarded" xmlns="http://www.igt.com/gle/common/xml/gamedata">
+					<PricePoint amount="2500">
+						<Prize division="1" name="BMW X5 xDrive45e Plug-in Hybrid" tier="1"/>
+					</PricePoint>
+				</InstantWinNonCashPrizeInfo>
+			</PaytableData>
+			<PaytableData crc="">
+				<PrizeInfo multiplierStrategy="null" name="ODE" strategy="preventPrize" xmlns="http://www.igt.com/gle/common/xml/gamedata">
+					<Prize name="Total">
+						<PrizePay count="1" value="0"/>
+					</Prize>
+				</PrizeInfo>
+			</PaytableData>
+			<PaytableData crc="">
+				<TriggerInfo name="ODE" xmlns="http://www.igt.com/gle/common/xml/gamedata">
+					<Trigger name="merchandisePrizeAwarded"/>
+				</TriggerInfo>
+			</PaytableData>
+			<PaytableData crc="">
+				<TriggerInfo name="Scenario.Loop" xmlns="http://www.igt.com/gle/common/xml/gamedata">
+					<Trigger name="merchandisePrizeAwarded"/>
+				</TriggerInfo>
+			</PaytableData>
+			<PaytableData crc="">
+				<StageTriggerInfo name="Scenario" xmlns="http://www.igt.com/gle/common/xml/gamedata">
+					<Trigger name="merchandisePrizeAwarded" stageConnector="ScenarioToMerchandisePrize"/>
+				</StageTriggerInfo>
+			</PaytableData>
+			<PaytableData crc="">
+				<WagerStrategyInfo name="Scenario" xmlns="http://www.igt.com/gle/common/xml/gamedata">
+					<Trigger name="scenario" payoutState="noPayout" priority="0" wagerState="pending"/>
+				</WagerStrategyInfo>
+			</PaytableData>
+			<PaytableData crc="">
+				<StageTriggerInfo name="MerchandisePrize" xmlns="http://www.igt.com/gle/common/xml/gamedata">
+					<Trigger name="try" stageConnector="MerchandisePrizeToWager"/>
+					<Trigger name="buy" stageConnector="MerchandisePrizeToReveal"/>
+				</StageTriggerInfo>
+			</PaytableData>
+			<PaytableData crc="">
+				<WagerStrategyInfo name="MerchandisePrize" xmlns="http://www.igt.com/gle/common/xml/gamedata">
+					<Trigger name="try" payoutState="payout" priority="10" wagerState="settled"/>
+					<Trigger name="buy" payoutState="noPayout" priority="0" wagerState="pending"/>
+				</WagerStrategyInfo>
+			</PaytableData>
+			<PaytableData crc="">
+				<ODEInfo name="Reveal.Status" verificationStrategy="revealStatus" xmlns="http://www.igt.com/gle/common/xml/gamedata">
+					<RevealIncompleteTrigger>incomplete</RevealIncompleteTrigger>
+					<RevealCompleteTrigger>complete</RevealCompleteTrigger>
+				</ODEInfo>
+			</PaytableData>
+			<PaytableData crc="">
+				<ODEInfo name="Reveal.RevealData" verificationStrategy="revealData" xmlns="http://www.igt.com/gle/common/xml/gamedata"/>
+			</PaytableData>
+			<PaytableData crc="">
+				<StageTriggerInfo name="Reveal" xmlns="http://www.igt.com/gle/common/xml/gamedata">
+					<Trigger name="incomplete" stageConnector="RevealToReveal"/>
+					<Trigger name="complete" stageConnector="RevealToWager"/>
+				</StageTriggerInfo>
+			</PaytableData>
+			<PaytableData crc="">
+				<WagerStrategyInfo name="Reveal" xmlns="http://www.igt.com/gle/common/xml/gamedata">
+					<Trigger name="incomplete" payoutState="noPayout" priority="50" wagerState="pending"/>
+					<Trigger name="complete" payoutState="payout" priority="0" wagerState="settled"/>
+				</WagerStrategyInfo>
+			</PaytableData>
+		</Paytable>
+	</DigestedData>
+</SignedPaytable>
